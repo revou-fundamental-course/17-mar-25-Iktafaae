@@ -1,8 +1,78 @@
 /* ini nnganu */
+.body-style{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(255, 254, 250);
+}
 .main-header {
     background-color: aliceblue;
     padding: 25px;
     margin: 0;
     text-align: center;
 }
-    
+
+.main-style{
+    margin-inline: 20px;
+}
+
+.persegi-style{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0.5px
+}
+
+.nav-fitur{
+    display: flex;
+    flex-direction: column;
+}
+
+.link1-style{
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50%;
+    align-self: center;
+    margin-bottom: 10px;
+    border: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.link2-style{
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50%;
+    align-self: center;
+    margin-bottom: 10px;
+    border: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.persegi-image{
+    background-image: url(../Asset/Rumus-Persegi.webp);
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    justify-self: center;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.calculate-content{
+    border: 1px solid;
+    height: 300px;
+    margin: 20px;
+}
